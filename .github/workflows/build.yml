@@ -1,0 +1,22 @@
+name: Derle
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+      - name: Derle
+        run: mvn -B package
+      - name: Jar dosyasini yukle
+        uses: actions/upload-artifact@v4
+        with:
+          name: RTPKuyruk
+          path: target/RTPKuyruk.jar
