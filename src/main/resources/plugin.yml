@@ -1,0 +1,10 @@
+name: RTPKuyruk
+version: 1.0.0
+main: tr.rtpkuyruk.RTPKuyruk
+api-version: '1.21'
+description: Rastgele ışınlanma kuyruğu. İki oyuncu eşleşir, aynı rastgele noktaya ışınlanır.
+commands:
+  rtpkuyruk:
+    description: Rastgele ışınlanma kuyruğunu açar.
+    usage: /<command> [iptal]
+    aliases: [rtpq, rtpk]

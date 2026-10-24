@@ -1,0 +1,15 @@
+# RTPKuyruk ayarları
+
+# Işınlanılacak dünyanın adı (normalde "world")
+dunya: "world"
+
+# Rastgele noktanın seçileceği alanın merkezi
+merkez-x: 0
+merkez-z: 0
+
+# Merkezden en fazla kaç blok uzağa ışınlanılsın.
+# Dünya sınırın (world border) varsa bunu sınırın yarısından küçük tut.
+yaricap: 5000
+
+# Kuyrukta en fazla kaç saniye beklenir. Süre dolunca arama durur.
+bekleme-suresi: 80
